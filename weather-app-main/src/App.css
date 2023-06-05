@@ -1,0 +1,44 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+.App
+{
+  text-align: center;
+  background-color: aqua;
+  height: 100vh;
+}
+.top
+{
+  position: sticky;
+  background-color: transparent;
+  border: 2px solid red;
+}
+.Search
+{
+  margin: 20px;
+  text-indent: 5%;
+  height: 40px;
+  width: 50%;
+  border-radius: 25px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-color: transparent;
+  margin-bottom: 0;
+}
+.Search:focus
+{
+  border-color: transparent;
+}
+.SearchResults
+{
+  margin-top: 0;
+  background-color: white;
+  width: 50%;
+  z-index: 100;
+  border-color: yellow;
+}
+.Submit
+{
+  border-radius: 10px;
+  height: 25px;
+  width: max-content;
+}
